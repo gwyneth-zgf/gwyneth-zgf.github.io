@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>PaccBet</title>
+  
+  
+  <link href="https://gwyneth-zgf.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://gwyneth-zgf.github.io/"/>
+  <updated>2021-10-24T07:17:40.834Z</updated>
+  <id>https://gwyneth-zgf.github.io/</id>
+  
+  <author>
+    <name>PaccBet</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>page</title>
+    <link href="https://gwyneth-zgf.github.io/2021/10/24/high/"/>
+    <id>https://gwyneth-zgf.github.io/2021/10/24/high/</id>
+    <published>2021-10-24T07:17:15.000Z</published>
+    <updated>2021-10-24T07:17:40.834Z</updated>
+    
+    
+    <summary type="html">描述</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://gwyneth-zgf.github.io/2021/10/23/hello-world/"/>
+    <id>https://gwyneth-zgf.github.io/2021/10/23/hello-world/</id>
+    <published>2021-10-23T07:06:33.749Z</published>
+    <updated>2021-10-24T07:15:51.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里是摘要</p><!-- more --><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="额外的头部字段"><a href="#额外的头部字段" class="headerlink" title="额外的头部字段"></a>额外的头部字段</h2><p><code>author</code>: 设置作者则会显示<br><code>email</code>: 自动根据邮箱获取头像<br><code>toc</code>: 是否显示目录（文章 post 默认显示，页面 post 默认不显示）<br><code>readmore</code>: 将会首页卡片摘要末尾强制显示一个“阅读更多”按钮<br><code>description</code>: 描述（只出现在预览卡片上，不出现在正文中）（默认使用 400 字重以表强调，略细于加粗字体）<br><code>excerpt</code>: 摘要（不需要在 Front-matter 中设置，通过 <!-- more --> 截断实现，预览卡片与正文中均出现）</p><h2 id="图片注释"><a href="#图片注释" class="headerlink" title="图片注释"></a>图片注释</h2><p><img src="https://i.loli.net/2021/10/23/qpJk6NgQoWBO4XK.jpg" alt="photo" loading="lazy"><em>图片注释</em></p><h2 id="页面"><a href="#页面" class="headerlink" title="页面"></a>页面</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxx</span><br><span class="line">icon: icon-women-line//设置页面标题前的图标</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h2 id="标签tags"><a href="#标签tags" class="headerlink" title="标签tags"></a>标签tags</h2><p>source/tags/index.md</p><h2 id="分类categories"><a href="#分类categories" class="headerlink" title="分类categories"></a>分类categories</h2><p>source/categories/index.md</p><h2 id="归档archives"><a href="#归档archives" class="headerlink" title="归档archives"></a>归档archives</h2><h2 id="关于我-about"><a href="#关于我-about" class="headerlink" title="关于我 about"></a>关于我 about</h2><p><code>hexo new page about</code><br>source/about/index.md</p><h2 id="关于站点"><a href="#关于站点" class="headerlink" title="关于站点"></a>关于站点</h2><p>source/about/site.md</p><blockquote><p>主题将根据 source/about/site.md 是否存在，决定是否渲染侧边栏中关于站点的超链接。</p></blockquote><h2 id="404"><a href="#404" class="headerlink" title="404"></a>404</h2><p>source/404.md</p><h2 id="友链links"><a href="#友链links" class="headerlink" title="友链links"></a>友链links</h2><p><code>hexo new page links</code><br>source/links/index.md，设置links字段</p><h2 id="girls"><a href="#girls" class="headerlink" title="girls"></a>girls</h2><p>source/girls/index.md</p><h2 id="albums"><a href="#albums" class="headerlink" title="albums"></a>albums</h2><h3 id="相册集"><a href="#相册集" class="headerlink" title="相册集"></a>相册集</h3><p>source/albums/index.md，设置type为albums</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">caption: 相册标题</span><br><span class="line">url:</span><br><span class="line">cover:</span><br><span class="line">desc: 相册描述</span><br></pre></td></tr></table></figure><h3 id="相册页"><a href="#相册页" class="headerlink" title="相册页"></a>相册页</h3><p>在albums文件夹中新建md文件：<code>hexo new page --path albums/sunset &quot;夕阳&quot;</code></p><blockquote><p>可以使用<code>gallery_password</code>对相册进行加密！！！！</p></blockquote><h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><p>详见/data/_comments.yml</p><h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h2><h2 id="置顶"><a href="#置顶" class="headerlink" title="置顶"></a>置顶</h2><p>设置文章的sticky属性，数值越高，优先级越高</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxx</span><br><span class="line">sticky: 1</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">描述</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
